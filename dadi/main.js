@@ -8,7 +8,7 @@ let displayUser = document.querySelector(".player");
 
 let displayPc = document.querySelector(".pc");
 
-let result = document.querySelector(".result");
+let result = document.querySelector(".result"); 
 
 // genero numero random da 1 a 6 per l'utente
 buttonPlay.addEventListener("click",

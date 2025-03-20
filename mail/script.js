@@ -16,7 +16,7 @@ let accessoConsentito = false;
 for (let i = 0; i < ospiti.length; i++) {  
     if (ospiti[i] === emailUtente) {  
         accessoConsentito = true;  
-        break; 
+        break;  
     }  
 }  
 
