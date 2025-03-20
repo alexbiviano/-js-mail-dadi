@@ -12,7 +12,7 @@ const emailUtente = prompt("Inserisci la tua email per accedere alla festa:");
  
 let accessoConsentito = false;  
 
-// controllare se l'email è nella lista degli invitati  
+// controllare se l'email è nella lista degli invitati    
 for (let i = 0; i < ospiti.length; i++) {  
     if (ospiti[i] === emailUtente) {  
         accessoConsentito = true;  
